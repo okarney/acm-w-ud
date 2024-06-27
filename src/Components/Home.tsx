@@ -27,29 +27,6 @@ function Home() {
               
                 <Button className="nav-bar-buttons">EBoard</Button>
            
-          
-          {/* <Container style={{marginLeft: 2}}>
-            <Row>
-               <Col>
-                <img src = {logo} alt = "logo" id = "image" className='fram'/>
-              </Col> 
-              <Col>
-                <Button className="nav-bar-buttons-events">Events</Button>
-              </Col>
-              <Col>
-                <Button className="nav-bar-buttons">About Us</Button>
-              </Col>
-              <Col>
-                <Button className="nav-bar-buttons">Join Us</Button>
-              </Col>
-              <Col>
-                <Button className="nav-bar-buttons">Resources</Button>
-              </Col>
-              <Col>
-                <Button className="nav-bar-buttons">EBoard</Button>
-              </Col>
-            </Row>
-          </Container> */}
         </div>
 
         <div className="page-content">
