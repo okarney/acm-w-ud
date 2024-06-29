@@ -41,6 +41,49 @@ function Home() {
 
           <h1>Resources</h1>
 
+            <Container className="resources">
+              <h2>Internships and Interviews</h2>
+
+              <Row>
+                <Col className="resources-columns">
+                  <div> 
+                      <h3>Find Internship Opportunities</h3>
+
+                      <li>Summer 2025 Tech Internships by Pitt CSC</li>
+                      <li>Summer 2025 Tech Internships by Ouckah & CSCareers</li>
+                      <li>Simplify</li>
+                      <li>WayUp</li>
+                      <li>RippleMatch</li>
+                      <li>LinkedIn</li>
+                  </div>
+                  
+                </Col>
+                <Col className="resources-columns">
+                  <div>   
+                      <h3>Resume Help</h3>
+
+                      <li>Resume Worded</li>
+                      <li>UD Career Services</li>
+                      <li>Your Friends!</li>
+                      <li>Your Professors!</li>
+                      <li>Upperclassmen!</li>
+                  </div>
+                  
+                </Col>
+                <Col className="resources-columns">
+                  <div> 
+                      <h3>Interview Prep Resources</h3>
+
+                      <li>LeetCode</li>
+                      <li>NeetCode</li>
+                      <li>Striver's Sheet</li>
+                      <li>CodePath</li>
+                      <li>Upsend</li>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
+
           <h1>Eboard</h1>
 
           <br></br>
@@ -52,39 +95,10 @@ function Home() {
 
           <br></br>
 
-          Event 1
-
-          as;dlkfjasdf
-          as;dfljkasdf;lkj
-          asd;lfjkasdlfkj
-          as;dlfjas;dfjk
-        
+    
         </div>
 
-        
-
-        {/* <div style={{backgroundColor: "#0b7b9e"}}>
-          <br></br>
-          <br></br>
-
-        </div>
-
-        <div style={{backgroundColor: "#dddace"}}>
-          <br></br>
-          <br></br>
-
-        </div>
-
-        <div style={{backgroundColor: "#f2f3f4"}}>
-          <br></br>
-          <br></br>
-
-        </div> */}
-
-        <span>Home</span>
-
-        <Button className="nav-buttons" onClick={() => navigate("/Events")}> Events </Button>      
-        
+  
       
       </div>
 
