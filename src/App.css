@@ -91,6 +91,11 @@
   font-size: 1.5vw;
 }
 
+.resources li {
+  color: black;
+  font-size: 1.2vw;
+}
+
 .resources-columns {
   
   align-items: center;
