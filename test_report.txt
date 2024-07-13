@@ -1,0 +1,279 @@
+
+> acm-w-ud@0.1.0 test
+> react-scripts test --coverage
+
+FAIL src/App.test.tsx
+  ✕ renders learn react link (64 ms)
+
+  ● renders learn react link
+
+    TestingLibraryElementError: Unable to find an element with the text: /learn react/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"page"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"site-header"[39m
+          [36m>[39m
+            [36m<img[39m
+              [33malt[39m=[32m"logo"[39m
+              [33mclass[39m=[32m"fram"[39m
+              [33mid[39m=[32m"image"[39m
+              [33msrc[39m=[32m"logo.png"[39m
+            [36m/>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"nav-bar-buttons-events btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mEvents[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"nav-bar-buttons btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mAbout Us[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"nav-bar-buttons btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mJoin Us[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"nav-bar-buttons btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mResources[0m
+            [36m</button>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"nav-bar-buttons btn btn-primary"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mEBoard[0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"page-content"[39m
+          [36m>[39m
+            [36m<br />[39m
+            [36m<h1>[39m
+              [0mUpcoming Events[0m
+            [36m</h1>[39m
+            [36m<h1>[39m
+              [0mAbout Us[0m
+            [36m</h1>[39m
+            [36m<h1>[39m
+              [0mJoin Us[0m
+            [36m</h1>[39m
+            [36m<h1>[39m
+              [0mResources[0m
+            [36m</h1>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"resources container"[39m
+            [36m>[39m
+              [36m<h2>[39m
+                [0mInternships and Interviews[0m
+              [36m</h2>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"row"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"resources-columns col"[39m
+                [36m>[39m
+                  [36m<div>[39m
+                    [36m<h3>[39m
+                      [0mFind Internship Opportunities[0m
+                    [36m</h3>[39m
+                    [36m<a[39m
+                      [33mhref[39m=[32m"https://github.com/SimplifyJobs/Summer2025-Internships"[39m
+                    [36m>[39m
+                      [36m<li>[39m
+                        [0mSummer 2025 Tech Internships by Pitt CSC[0m
+                      [36m</li>[39m
+                    [36m</a>[39m
+                    [36m<a[39m
+                      [33mhref[39m=[32m"https://github.com/Ouckah/Summer2025-Internships?tab=readme-ov-file"[39m
+                    [36m>[39m
+                      [36m<li>[39m
+                        [0mSummer 2025 Tech Internships by Ouckah & CSCareers[0m
+                      [36m</li>[39m
+                    [36m</a>[39m
+                    [36m<a[39m
+                      [33mhref[39m=[32m"https://simplify.jobs/internships"[39m
+                    [36m>[39m
+                      [36m<li>[39m
+                        [0mSimplify[0m
+                      [36m</li>[39m
+                    [36m</a>[39m
+                    [36m<a[39m
+                      [33mhref[39m=[32m"https://www.wayup.com/"[39m
+                    [36m>[39m
+                      [36m<li>[39m
+                        [0mWayUp[0m
+                      [36m</li>[39m
+                    [36m</a>[39m
+                    [36m<a[39m
+                      [33mhref[39m=[32m"https://ripplematch.com/?utm_source=Google&utm_medium=organic_social&utm_campaign=growth_google_ad&utm_content=signup_link&utm_term=null&r=GtE7Qf&utm_source=Google&utm_medium=cpc&utm_campaign=LD%7CB2C%7CBrand&utm_term=ripplematch&gad_source=1&gclid=CjwKCAjw4f6zBhBVEiwATEHFVhGPNn5xNv4R3dewM6ccs8y9DiMOR0_he2l5q9t8zK9IXRvUFI2dFRoCssIQAvD_BwE"[39m
+                    [36m>[39m
+                      [36m<li>[39m
+                        [0mRippleMatch[0m
+                      [36m</li>[39m
+                    [36m</a>[39m
+                    [36m<a[39m
+                      [33mhref[39m=[32m"https://www.linkedin.com/jobs/search?keywords=&location=United%20States&geoId=103644278&f_TPR=&f_E=1&position=1&pageNum=0"[39m
+                    [36m>[39m
+                      [36m<li>[39m
+                        [0mLinkedIn[0m
+                      [36m</li>[39m
+                    [36m</a>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"resources-columns col"[39m
+                [36m>[39m
+                  [36m<div>[39m
+                    [36m<h3>[39m
+                      [0mResume Help[0m
+                    [36m</h3>[39m
+                    [36m<a[39m
+                      [33mhref[39m=[32m"https://resumeworded.com/"[39m
+                    [36m>[39m
+                      [36m<li>[39m
+                        [0mResume Worded[0m
+                      [36m</li>[39m
+                    [36m</a>[39m
+                    [36m<a[39m
+                      [33mhref[39m=[32m"https://www.tealhq.com/tools/resume-builder"[39m
+                    [36m>[39m
+                      [36m<li>[39m
+                        [0mTealAI[0m
+                      [36m</li>[39m
+                    [36m</a>[39m
+                    [36m<a[39m
+                      [33mhref[39m=[32m"https://www.udel.edu/students/career-center/students/resume/"[39m
+                    [36m>[39m
+                      [36m<li>[39m
+                        [0mUD Career Services[0m
+                      [36m</li>[39m
+                    [36m</a>[39m
+                    [36m<li>[39m
+                      [0mYour Friends![0m
+                    [36m</li>[39m
+                    [36m<li>[39m
+                      [0mYour Professors![0m
+                    [36m</li>[39m
+                    [36m<li>[39m
+                      [0mUpperclassmen![0m
+                    [36m</li>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"resources-columns col"[39m
+                [36m>[39m
+                  [36m<div>[39m
+                    [36m<h3>[39m
+                      [0mInterview Prep Resources[0m
+                    [36m</h3>[39m
+                    [36m<a[39m
+                      [33mhref[39m=[32m"https://leetcode.com/problemset/"[39m
+                    [36m>[39m
+                      [36m<li>[39m
+                        [0mLeetCode[0m
+                      [36m</li>[39m
+                    [36m</a>[39m
+                    [36m<a[39m
+                      [33mhref[39m=[32m"https://neetcode.io/"[39m
+                    [36m>[39m
+                      [36m<li>[39m
+                        [0mNeetCode[0m
+                      [36m</li>[39m
+                    [36m</a>[39m
+                    [36m<a[39m
+                      [33mhref[39m=[32m"https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2"[39m
+                    [36m>[39m
+                      [36m<li>[39m
+                        [0mStriver's Sheet[0m
+                      [36m</li>[39m
+                    [36m</a>[39m
+                    [36m<a[39m
+                      [33mhref[39m=[32m"https://www.codepath.org/"[39m
+                    [36m>[39m
+                      [36m<li>[39m
+                        [0mCodePath[0m
+                      [36m</li>[39m
+                    [36m</a>[39m
+                    [36m<a[39m
+                      [33mhref[39m=[32m"https://www.upsend.co/"[39m
+                    [36m>[39m
+                      [36m<li>[39m
+                        [0mUpsend[0m
+                      [36m</li>[39m
+                    [36m</a>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+            [36m<h1>[39m
+              [0mEboard[0m
+            [36m</h1>[39m
+            [36m<br />[39m
+            [36m<br />[39m
+            [36m<br />[39m
+            [36m<br />[39m
+            [36m<br />[39m
+            [36m<br />[39m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
+
+    [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
+     [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
+    [31m[1m>[22m[39m[90m  7 |[39m   [36mconst[39m linkElement [33m=[39m screen[33m.[39mgetByText([35m/learn react/i[39m)[33m;[39m
+     [90m    |[39m                              [31m[1m^[22m[39m
+     [90m  8 |[39m   expect(linkElement)[33m.[39mtoBeInTheDocument()[33m;[39m
+     [90m  9 |[39m })[33m;[39m
+     [90m 10 |[39m[0m
+
+      at Object.getElementError (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/config.js:37:19)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+      at getByText (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+      at Object.<anonymous> (src/App.test.tsx:7:30)
+      at TestScheduler.scheduleTests (node_modules/@jest/core/build/TestScheduler.js:333:13)
+      at runJest (node_modules/@jest/core/build/runJest.js:404:19)
+      at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
+      at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
+
+---------------------|---------|----------|---------|---------|-------------------
+File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------|---------|----------|---------|---------|-------------------
+All files            |    12.5 |        0 |   33.33 |    12.5 |                   
+ src                 |    8.33 |        0 |   33.33 |    8.33 |                   
+  App.tsx            |     100 |      100 |     100 |     100 |                   
+  index.tsx          |       0 |      100 |     100 |       0 | 9-21              
+  reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
+ src/Components      |      25 |      100 |   33.33 |      25 |                   
+  Events.tsx         |       0 |      100 |       0 |       0 | 9-16              
+  Home.tsx           |     100 |      100 |     100 |     100 |                   
+---------------------|---------|----------|---------|---------|-------------------
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.593 s
+Ran all test suites.
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
