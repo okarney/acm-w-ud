@@ -41,7 +41,7 @@ function Home() {
           <h1>Resources</h1>
 
             <Container className="resources">
-              <h2>Internships and Interviews</h2>
+              <h2 style={{marginBottom: "2.5%"}}><u>Internships and Interviews</u></h2>
 
               <Row>
                 <Col className="resources-columns">
@@ -74,6 +74,7 @@ function Home() {
                   <div> 
                       <h3>Interview Prep Resources</h3>
 
+                      <Link to="https://www.theforage.com/simulations/girls-who-code/technical-interview-prep-ayks?utm_source=company_website&utm_medium=application&utm_creative=sharelink"><li>Girls Who Code Technical Interview Prep Course</li></Link>
                       <Link to="https://leetcode.com/problemset/"><li>LeetCode</li></Link>
                       <Link to="https://neetcode.io/"><li>NeetCode</li></Link>
                       <Link to="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2"><li>Striver's Sheet</li></Link>
