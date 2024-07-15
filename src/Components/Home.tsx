@@ -7,6 +7,7 @@ import logo from "./logo.png"
 import {EBoardCard} from './Eboard';
 
 import OliviaPicture from "./OliviaPicture.png";
+import JasmynPicture from "./JasmynPicture.jpeg";
 import placeHolder from "./placeholderPic.webp";
 
 
@@ -106,7 +107,7 @@ function Home() {
 
             <EBoardCard name='Ujjwala Pothula' position='Treasurer' image={placeHolder} githubURL='https://github.com/' linkedinURL='https://www.linkedin.com/in/ujjwalap16/' ></EBoardCard>
 
-            <EBoardCard name='Jasmyn Navarro' position='Mentorship Coordinator' image={placeHolder} githubURL='https://github.com/' linkedinURL='https://www.linkedin.com/in/jasmyn-navarro/' ></EBoardCard>
+            <EBoardCard name='Jasmyn Navarro' position='Mentorship Coordinator' image={JasmynPicture} githubURL='https://github.com/JayNavarro' linkedinURL='https://www.linkedin.com/in/jasmyn-navarro/' ></EBoardCard>
 
             <EBoardCard name='Olivia Karney' position='Website Manager' image={OliviaPicture} githubURL='https://github.com/okarney' linkedinURL='https://www.linkedin.com/in/olivia-karney/' ></EBoardCard>
 
