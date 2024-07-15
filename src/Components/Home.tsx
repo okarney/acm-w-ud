@@ -8,6 +8,7 @@ import {EBoardCard} from './Eboard';
 
 import OliviaPicture from "./OliviaPicture.png";
 import JasmynPicture from "./JasmynPicture.jpeg";
+import GroupPicture from "./GroupPicture.jpg";
 import placeHolder from "./placeholderPic.webp";
 
 
@@ -41,6 +42,39 @@ function Home() {
 
           <h1>About Us</h1>
 
+          <Container style={{marginTop: "2%"}} >
+            <Row>
+              <Col>
+                <p style = {{fontSize: "1.2vw"}} >
+                  We are a group of students that support women and non-binary people in technology-driven fields at the University of Delaware. 
+                  We like to hang out together to chat and discuss professional or technical topics, as well as to serve as a support group for 
+                  ourselves and other students . Our goal is to promote women and nonbinary people in technology at UD, have fun and help students
+                  succeed in college.
+                </p>
+
+                <br></br>
+
+                <p style = {{fontSize: "1.2vw"}}>
+                  ACM-W is open to all undergraduate, graduate, and faculty in technology driven fields. Anyone is welcome to join us.
+                </p>
+
+                <br></br>
+
+                <p style = {{fontSize: "1.2vw"}}>
+                  We are a registered chapter of the Association for Computing Machinery's Council on Women in Computing (ACM-W). Learn more about our parent organization here!
+                </p>
+
+                <Button>Learn more about our parent organization!</Button>
+
+              </Col>
+              <Col>
+                <img src={GroupPicture} alt="logo" style={{width: "100%"}} />
+
+              </Col>
+            </Row>
+          </Container>
+
+          
           <h1>Join Us</h1>
 
           <h1>Resources</h1>
