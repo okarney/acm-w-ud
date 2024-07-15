@@ -1,6 +1,5 @@
 import '../App.css';
 
-import {SocialIcon} from "react-social-icons";
 import LinkedInLogo from "./LinkedInLogo.png";
 import GithubLogo from "./GithubLogo.png";
 import { Link } from 'react-router-dom';
