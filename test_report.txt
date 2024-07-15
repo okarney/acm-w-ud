@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (108 ms)
+  ✕ renders learn react link (116 ms)
 
   ● renders learn react link
 
@@ -65,6 +65,51 @@ FAIL src/App.test.tsx
             [36m<h1>[39m
               [0mAbout Us[0m
             [36m</h1>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"container"[39m
+              [33mstyle[39m=[32m"margin-top: 2%;"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"row"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"col"[39m
+                [36m>[39m
+                  [36m<p[39m
+                    [33mstyle[39m=[32m"font-size: 1.2vw;"[39m
+                  [36m>[39m
+                    [0mWe are a group of students that support women and non-binary people in technology-driven fields at the University of Delaware. We like to hang out together to chat and discuss professional or technical topics, as well as to serve as a support group for ourselves and other students . Our goal is to promote women and nonbinary people in technology at UD, have fun and help students succeed in college.[0m
+                  [36m</p>[39m
+                  [36m<br />[39m
+                  [36m<p[39m
+                    [33mstyle[39m=[32m"font-size: 1.2vw;"[39m
+                  [36m>[39m
+                    [0mACM-W is open to all undergraduate, graduate, and faculty in technology driven fields. Anyone is welcome to join us.[0m
+                  [36m</p>[39m
+                  [36m<br />[39m
+                  [36m<p[39m
+                    [33mstyle[39m=[32m"font-size: 1.2vw;"[39m
+                  [36m>[39m
+                    [0mWe are a registered chapter of the Association for Computing Machinery's Council on Women in Computing (ACM-W). Learn more about our parent organization here![0m
+                  [36m</p>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"btn btn-primary"[39m
+                    [33mtype[39m=[32m"button"[39m
+                  [36m>[39m
+                    [0mLearn more about our parent organization![0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"col"[39m
+                [36m>[39m
+                  [36m<img[39m
+                    [33malt[39m=[32m"logo"[39m
+                    [33msrc[39m=[32m"GroupPicture.jpg"[39m
+                    [33mstyle[39m=[32m"width: 100%;"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</div>[39m
             [36m<h1>[39m
               [0mJoin Us[0m
             [36m</h1>[39m
@@ -132,63 +177,7 @@ FAIL src/App.test.tsx
                       [36m<li>[39m
                         [0mLinkedIn[0m
                       [36m</li>[39m
-                    [36m</a>[39m
-                  [36m</div>[39m
-                [36m</div>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"resources-columns col"[39m
-                [36m>[39m
-                  [36m<div>[39m
-                    [36m<h3>[39m
-                      [0mResume Help[0m
-                    [36m</h3>[39m
-                    [36m<a[39m
-                      [33mhref[39m=[32m"https://resumeworded.com/"[39m
-                    [36m>[39m
-                      [36m<li>[39m
-                        [0mResume Worded[0m
-                      [36m</li>[39m
-                    [36m</a>[39m
-                    [36m<a[39m
-                      [33mhref[39m=[32m"https://www.tealhq.com/tools/resume-builder"[39m
-                    [36m>[39m
-                      [36m<li>[39m
-                        [0mTealAI[0m
-                      [36m</li>[39m
-                    [36m</a>[39m
-                    [36m<a[39m
-                      [33mhref[39m=[32m"https://www.udel.edu/students/career-center/students/resume/"[39m
-                    [36m>[39m
-                      [36m<li>[39m
-                        [0mUD Career Services[0m
-                      [36m</li>[39m
-                    [36m</a>[39m
-                    [36m<li>[39m
-                      [0mYour Friends![0m
-                    [36m</li>[39m
-                    [36m<li>[39m
-                      [0mYour Professors![0m
-                    [36m</li>[39m
-                    [36m<li>[39m
-                      [0mUpperclassmen![0m
-                    [36m</li>[39m
-                  [36m</div>[39m
-                [36m</div>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"resources-columns col"[39m
-                [36m>[39m
-                  [36m<div>[39m
-                    [36m<h3>[39m
-                      [0mInterview Prep Resources[0m
-                    [36m</h3>[39m
-                    [36m<a[39m
-                      [33mhref[39m=[32m"https://www.theforage.com/simulations/girls-who-code/technical-interview-prep-ayks?utm_source=company_website&utm_medium=application&utm_creative=sharelink"[39m
-                    [36m>[39m
-                      [36m<li>[39m
-                        [0mGirls Who Code Technical Interview Prep Course[0m
-                      [36m</li>[39m
-                    [36m</a>[39m
-                    [3...
+       ...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -224,7 +213,7 @@ All files            |   17.64 |        0 |   42.85 |   17.64 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.712 s
+Time:        2.887 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
