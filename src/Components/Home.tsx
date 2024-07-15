@@ -4,6 +4,10 @@ import '../App.css';
 import { Link } from 'react-router-dom';
 
 import logo from "./logo.png"
+import {EBoardCard} from './Eboard';
+
+import OliviaPicture from "./OliviaPicture.png";
+import placeHolder from "./placeholderPic.webp";
 
 
 function Home() {
@@ -86,6 +90,28 @@ function Home() {
             </Container>
 
           <h1>Eboard</h1>
+
+          <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
+            <EBoardCard name='Olive Odida' position='President' image={placeHolder} githubURL='https://github.com/' linkedinURL='https://www.linkedin.com/in/olive-odida/' ></EBoardCard>
+
+            <EBoardCard name='Stephanie Park' position='Vice President' image={placeHolder} githubURL='https://github.com/' linkedinURL='https://www.linkedin.com/feed/' ></EBoardCard>
+
+            <EBoardCard name='Joy Mwaria' position='Secretary (Fall)' image={placeHolder} githubURL='https://github.com/' linkedinURL='https://www.linkedin.com/in/joymwaria/' ></EBoardCard>
+
+            <EBoardCard name='Isha Kashif' position='Secretary (Spring)' image={placeHolder} githubURL='https://github.com/' linkedinURL='https://www.linkedin.com/in/ishakashif/' ></EBoardCard>
+
+          </div>
+
+          <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
+
+            <EBoardCard name='Ujjwala Pothula' position='Treasurer' image={placeHolder} githubURL='https://github.com/' linkedinURL='https://www.linkedin.com/in/ujjwalap16/' ></EBoardCard>
+
+            <EBoardCard name='Jasmyn Navarro' position='Mentorship Coordinator' image={placeHolder} githubURL='https://github.com/' linkedinURL='https://www.linkedin.com/in/jasmyn-navarro/' ></EBoardCard>
+
+            <EBoardCard name='Olivia Karney' position='Website Manager' image={OliviaPicture} githubURL='https://github.com/okarney' linkedinURL='https://www.linkedin.com/in/olivia-karney/' ></EBoardCard>
+
+          </div>
+
 
           <br></br>
           <br></br>
