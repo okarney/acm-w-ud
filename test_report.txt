@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (67 ms)
+  ✕ renders learn react link (111 ms)
 
   ● renders learn react link
 
@@ -188,58 +188,7 @@ FAIL src/App.test.tsx
                         [0mGirls Who Code Technical Interview Prep Course[0m
                       [36m</li>[39m
                     [36m</a>[39m
-                    [36m<a[39m
-                      [33mhref[39m=[32m"https://leetcode.com/problemset/"[39m
-                    [36m>[39m
-                      [36m<li>[39m
-                        [0mLeetCode[0m
-                      [36m</li>[39m
-                    [36m</a>[39m
-                    [36m<a[39m
-                      [33mhref[39m=[32m"https://neetcode.io/"[39m
-                    [36m>[39m
-                      [36m<li>[39m
-                        [0mNeetCode[0m
-                      [36m</li>[39m
-                    [36m</a>[39m
-                    [36m<a[39m
-                      [33mhref[39m=[32m"https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2"[39m
-                    [36m>[39m
-                      [36m<li>[39m
-                        [0mStriver's Sheet[0m
-                      [36m</li>[39m
-                    [36m</a>[39m
-                    [36m<a[39m
-                      [33mhref[39m=[32m"https://www.codepath.org/"[39m
-                    [36m>[39m
-                      [36m<li>[39m
-                        [0mCodePath[0m
-                      [36m</li>[39m
-                    [36m</a>[39m
-                    [36m<a[39m
-                      [33mhref[39m=[32m"https://www.upsend.co/"[39m
-                    [36m>[39m
-                      [36m<li>[39m
-                        [0mUpsend[0m
-                      [36m</li>[39m
-                    [36m</a>[39m
-                  [36m</div>[39m
-                [36m</div>[39m
-              [36m</div>[39m
-            [36m</div>[39m
-            [36m<h1>[39m
-              [0mEboard[0m
-            [36m</h1>[39m
-            [36m<br />[39m
-            [36m<br />[39m
-            [36m<br />[39m
-            [36m<br />[39m
-            [36m<br />[39m
-            [36m<br />[39m
-          [36m</div>[39m
-        [36m</div>[39m
-      [36m</div>[39m
-    [36m</body>[39m
+                    [3...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -262,19 +211,20 @@ FAIL src/App.test.tsx
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
-All files            |    12.5 |        0 |   33.33 |    12.5 |                   
+All files            |   17.64 |        0 |   42.85 |   17.64 |                   
  src                 |    8.33 |        0 |   33.33 |    8.33 |                   
   App.tsx            |     100 |      100 |     100 |     100 |                   
   index.tsx          |       0 |      100 |     100 |       0 | 9-21              
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
- src/Components      |      25 |      100 |   33.33 |      25 |                   
+ src/Components      |      40 |      100 |      50 |      40 |                   
+  Eboard.tsx         |     100 |      100 |     100 |     100 |                   
   Events.tsx         |       0 |      100 |       0 |       0 | 9-16              
   Home.tsx           |     100 |      100 |     100 |     100 |                   
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.54 s
+Time:        2.836 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
