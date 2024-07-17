@@ -8,7 +8,11 @@ import {EBoardCard} from './Eboard';
 
 import OliviaPicture from "./OliviaPicture.png";
 import JasmynPicture from "./JasmynPicture.jpeg";
+import UjjwalaPicture from "./UjjwalaPicture.jpg";
+
+
 import GroupPicture from "./GroupPicture.jpg";
+
 import placeHolder from "./placeholderPic.webp";
 
 
@@ -139,7 +143,7 @@ function Home() {
 
           <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
 
-            <EBoardCard name='Ujjwala Pothula' position='Treasurer' image={placeHolder} githubURL='https://github.com/' linkedinURL='https://www.linkedin.com/in/ujjwalap16/' ></EBoardCard>
+            <EBoardCard name='Ujjwala Pothula' position='Treasurer' image={UjjwalaPicture} githubURL='https://github.com/ujjwalaa7' linkedinURL='https://www.linkedin.com/in/ujjwalap16/' ></EBoardCard>
 
             <EBoardCard name='Jasmyn Navarro' position='Mentorship Coordinator' image={JasmynPicture} githubURL='https://github.com/JayNavarro' linkedinURL='https://www.linkedin.com/in/jasmyn-navarro/' ></EBoardCard>
 
