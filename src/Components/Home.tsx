@@ -10,6 +10,7 @@ import OliviaPicture from "./OliviaPicture.png";
 import JasmynPicture from "./JasmynPicture.jpeg";
 import UjjwalaPicture from "./UjjwalaPicture.jpg";
 import IshaPicture from "./IshaPicture.jpg";
+import JoyPicture from "./JoyPicture.jpg";
 
 
 import GroupPicture from "./GroupPicture.jpg";
@@ -136,7 +137,7 @@ function Home() {
 
             <EBoardCard name='Stephanie Park' position='Vice President' image={placeHolder} githubURL='https://github.com/' linkedinURL='https://www.linkedin.com/feed/' ></EBoardCard>
 
-            <EBoardCard name='Joy Mwaria' position='Secretary (Fall)' image={placeHolder} githubURL='https://github.com/' linkedinURL='https://www.linkedin.com/in/joymwaria/' ></EBoardCard>
+            <EBoardCard name='Joy Mwaria' position='Secretary (Fall)' image={JoyPicture} githubURL='https://github.com/' linkedinURL='https://www.linkedin.com/in/joymwaria/' ></EBoardCard>
 
             <EBoardCard name='Isha Kashif' position='Secretary (Spring)' image={IshaPicture} githubURL='https://github.com/ishakashif' linkedinURL='https://www.linkedin.com/in/ishakashif/' ></EBoardCard>
 
