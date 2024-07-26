@@ -1,7 +1,7 @@
 import '../App.css';
 
-import LinkedInLogo from "./LinkedInLogo.png";
-import GithubLogo from "./GithubLogo.png";
+import LinkedInLogo from "./Images/Icons/LinkedInLogo.png";
+import GithubLogo from "./Images/Icons/GithubLogo.png";
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 

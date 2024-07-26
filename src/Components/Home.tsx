@@ -3,19 +3,19 @@ import '../App.css';
 
 import { Link } from 'react-router-dom';
 
-import logo from "./logo.png"
+import logo from "./Images/Logos/logo.png"
 import {EBoardCard} from './Eboard';
 
-import OliviaPicture from "./OliviaPicture.png";
-import JasmynPicture from "./JasmynPicture.jpeg";
-import UjjwalaPicture from "./UjjwalaPicture.jpg";
-import IshaPicture from "./IshaPicture.jpg";
-import JoyPicture from "./JoyPicture.jpg";
+import OliviaPicture from "./Images/EboardPictures/OliviaPicture.png"
+import JasmynPicture from "./Images/EboardPictures/JasmynPicture.jpeg"
+import UjjwalaPicture from "./Images/EboardPictures/UjjwalaPicture.jpg"
+import IshaPicture from "./Images/EboardPictures/IshaPicture.jpg"
+import JoyPicture from "./Images/EboardPictures/JoyPicture.jpg";
 
 
-import GroupPicture from "./GroupPicture.jpg";
+import GroupPicture from "./Images/ClubPictures/GroupPicture.jpg";
 
-import placeHolder from "./placeholderPic.webp";
+import placeHolder from "./Images/EboardPictures/placeholderPic.webp"
 
 
 function Home() {
