@@ -59,7 +59,9 @@ FAIL src/App.test.tsx
             [33mclass[39m=[32m"page-content"[39m
           [36m>[39m
             [36m<br />[39m
-            [36m<h1>[39m
+            [36m<h1[39m
+              [33mid[39m=[32m"Events"[39m
+            [36m>[39m
               [0mUpcoming Events[0m
             [36m</h1>[39m
             [36m<h1>[39m
@@ -175,9 +177,7 @@ FAIL src/App.test.tsx
                       [33mhref[39m=[32m"https://www.linkedin.com/jobs/search?keywords=&location=United%20States&geoId=103644278&f_TPR=&f_E=1&position=1&pageNum=0"[39m
                     [36m>[39m
                       [36m<li>[39m
-                        [0mLinkedIn[0m
-                      [36m</li>[39m
-       ...
+                 ...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -213,7 +213,7 @@ All files            |   17.64 |        0 |   42.85 |   17.64 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.726 s
+Time:        2.729 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
