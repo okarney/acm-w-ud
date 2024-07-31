@@ -44,7 +44,7 @@ function Home() {
           <br></br>
 
 
-          <h1>Upcoming Events</h1>
+          <h1 id="Events">Upcoming Events</h1>
 
           <h1>About Us</h1>
 
@@ -137,7 +137,7 @@ function Home() {
 
             <EBoardCard name='Stephanie Park' position='Vice President' image={placeHolder} githubURL='https://github.com/' linkedinURL='https://www.linkedin.com/feed/' ></EBoardCard>
 
-            <EBoardCard name='Joy Mwaria' position='Secretary (Fall)' image={JoyPicture} githubURL='https://github.com/' linkedinURL='https://www.linkedin.com/in/joymwaria/' ></EBoardCard>
+            <EBoardCard name='Joy Mwaria' position='Secretary (Fall)' image={JoyPicture} githubURL='https://github.com/joymmw' linkedinURL='https://www.linkedin.com/in/joymwaria/' ></EBoardCard>
 
             <EBoardCard name='Isha Kashif' position='Secretary (Spring)' image={IshaPicture} githubURL='https://github.com/ishakashif' linkedinURL='https://www.linkedin.com/in/ishakashif/' ></EBoardCard>
 
