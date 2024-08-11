@@ -4,13 +4,14 @@
 
 .page {
   text-align: left;
+  margin-left: 0;
 }
 .page-content h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
   font-size: 3.0vw;
-  margin-left: 0%;
+  /* margin-left: 0; */
   margin-top: 8%;
   color: #000000;
 }
@@ -20,7 +21,7 @@
   display: inline-block;
   margin-top: 0;
   width: 100%;
-  background-color: #ffffffe1;
+  background-color: #0639a7;
 }
 
 .site-header img {
@@ -43,7 +44,7 @@
   border-radius: 20px;
   cursor: pointer;
   background-color: #ffffff00 !important;
-  color: #00309B !important;
+  color: #ffffff !important;
   transition: font-size 0.3s ease; /* Smooth transition for background color */
 }
 .nav-bar-buttons-events:hover {
@@ -68,7 +69,7 @@
   border-radius: 20px;
   cursor: pointer;
   background-color: #ffffff00 !important;
-  color: #00309B !important;
+  color: #ffffff !important;
   transition: background-color 0.3s ease; /* Smooth transition for background color */
 }
 
@@ -80,7 +81,11 @@
 }
 
 .page-content {
-  margin-left: 1.5%;
+  /* margin-left: 1.5%; */
+}
+
+.resources {
+  margin-bottom: 0;
 }
 
 .resources h2 {
