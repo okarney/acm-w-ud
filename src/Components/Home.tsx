@@ -2,8 +2,10 @@ import { Button, Col, Container, Row } from 'react-bootstrap';
 import '../App.css';
 
 import { Link } from 'react-router-dom';
+import {FaInstagram, FaLinkedin} from 'react-icons/fa'
 
-import logo from "./Images/Logos/logo.png"
+//import logo from "./Images/Logos/logo.png"
+import whiteLogo from "./Images/Logos/whiteLogo.png"
 import {EBoardCard} from './Eboard';
 
 import OliviaPicture from "./Images/EboardPictures/OliviaPicture.png"
@@ -11,22 +13,23 @@ import JasmynPicture from "./Images/EboardPictures/JasmynPicture.jpeg"
 import UjjwalaPicture from "./Images/EboardPictures/UjjwalaPicture.jpg"
 import IshaPicture from "./Images/EboardPictures/IshaPicture.jpg"
 import JoyPicture from "./Images/EboardPictures/JoyPicture.jpg";
-
+import OlivePicture from "./Images/EboardPictures/OlivePicture.jpeg";
 
 import GroupPicture from "./Images/ClubPictures/GroupPicture.jpg";
 
 import placeHolder from "./Images/EboardPictures/placeholderPic.webp"
+import { link } from 'fs';
 
 
 function Home() {
-
+  
  
     
     return (
       <div className="page">
         
         <div className="site-header">
-                <img src = {logo} alt = "logo" id = "image" className='fram'/>
+                <img src = {whiteLogo} alt = "logo" id = "image" className='fram'/>
                 
                 <Button className="nav-bar-buttons-events">Events</Button>
              
@@ -43,15 +46,22 @@ function Home() {
         <div className="page-content">
           <br></br>
 
+          <div style={{backgroundColor: "#E0F2FD", overflow: "hidden"}}>
+            <h1 id="Events">Upcoming Events</h1>
 
-          <h1 id="Events">Upcoming Events</h1>
+            <h2>Fall Involvement Fair</h2>
+            <h2>First Fall Meeting</h2>
 
-          <h1>About Us</h1>
+          </div>
+
+          <div style={{backgroundColor: "white", overflow: "hidden", marginBottom: "6vh"}}>
+
+          <h1 style={{marginTop: "6vh"}} >About Us</h1>
 
           <Container style={{marginTop: "2%"}} >
             <Row>
               <Col>
-                <p style = {{fontSize: "1.2vw"}} >
+                <p style = {{fontSize: "1vw"}} >
                   We are a group of students that support women and non-binary people in technology-driven fields at the University of Delaware. 
                   We like to hang out together to chat and discuss professional or technical topics, as well as to serve as a support group for 
                   ourselves and other students . Our goal is to promote women and nonbinary people in technology at UD, have fun and help students
@@ -60,17 +70,17 @@ function Home() {
 
                 <br></br>
 
-                <p style = {{fontSize: "1.2vw"}}>
+                <p style = {{fontSize: "1vw"}}>
                   ACM-W is open to all undergraduate, graduate, and faculty in technology driven fields. Anyone is welcome to join us.
                 </p>
 
                 <br></br>
 
-                <p style = {{fontSize: "1.2vw"}}>
+                <p style = {{fontSize: "1vw"}}>
                   We are a registered chapter of the Association for Computing Machinery's Council on Women in Computing (ACM-W). Learn more about our parent organization here!
                 </p>
 
-                <Button>Learn more about our parent organization!</Button>
+                <Button style={{width: "100%", padding: 5, fontSize: "1.5vw", backgroundColor: "#f4a300ff", border: 0, marginTop: "1vh"}}  onClick={() => window.location.href = "https://women.acm.org/"}>Learn more about our parent organization!</Button>
 
               </Col>
               <Col>
@@ -79,11 +89,20 @@ function Home() {
               </Col>
             </Row>
           </Container>
+          </div>
 
-          
-          <h1>Join Us</h1>
+          <div style={{backgroundColor: "#E0F2FD", overflow: "hidden"}}>
+          <h1 style={{marginTop: "4vh", marginBottom: "4vh"}}>Join Us</h1>
+        
+          <div style ={{display: "flex", justifyContent: "center", marginBottom: "6vh"}}>
+            <iframe src="https://forms.gle/sdKo1PJ4JWxFqqfo7" style={{width: "70vw", height: "60vh"}} ></iframe>
+          </div>
 
-          <h1>Resources</h1>
+          </div>
+
+
+          <div style={{backgroundColor: "white", marginTop: 0, marginBottom: "6vh", overflow: "hidden"}}>
+          <h1 style = {{marginTop: "6vh", marginBottom: "4vh"}}>Resources</h1>
 
             <Container className="resources">
               <h2 style={{marginBottom: "2.5%"}}><u>Internships and Interviews</u></h2>
@@ -128,12 +147,61 @@ function Home() {
                   </div>
                 </Col>
               </Row>
+              <h2 style={{marginTop: "2.5%", marginBottom: "2.5%"}}><u>Conferences and Organizations</u></h2>
+              <Row>
+                <Col className="resources-columns">
+                  <div> 
+                      <h3>Conferences</h3>
+
+                      <Link to="https://ghc.anitab.org/"><li>Grace Hopper Conference</li></Link>
+                      <Link to="https://www.wecodeconference.com/"><li>Harvard WECode</li></Link>
+                      <Link to="https://gotechnica.org/"><li>Technica Hackathon</li></Link>
+                      <Link to="https://tapiaconference.cmd-it.org/"><li>Tapia Conference</li></Link>
+                      <Link to="https://swe.org/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_D7eKzZrBqiU9jLcUyCgJgGZiphKG4XR_dbNvnm-fzisPhCZPtH5hcJNGotcx2YbXMYQhG"><li>Society of Women Engineers</li></Link>
+                      <Link to="https://convention.nsbe.org/"><li>National Society of Black Engineers Convention</li></Link>
+                      <Link to="https://conference.aises.org/"><li>American Indian Science and Engineering Conference</li></Link>
+                      <Link to="https://shpe.org/nc2024/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_D7eKzZrBqiU9jLcUyCgJgGZiphKG4XR_dbNvnm-fzisPhCZPtH5hcJNGotcx2YbXMYQhG"><li>Society of Hispanic Professional Engineers Convention</li></Link>
+
+                  </div>
+                  
+                </Col>
+                <Col className="resources-columns">
+                  <div>   
+                      <h3>Organizations</h3>
+
+                      <Link to="https://rewritingthecode.org/"><li>Rewriting the Code</li></Link>
+                      <Link to="https://girlswhocode.com/"><li>Girls Who Code</li></Link>
+                      <Link to="https://www.colorstack.org/"><li>Color Stack</li></Link>
+
+                  </div>
+                  
+                </Col>
+                <Col className="resources-columns">
+                  <div> 
+                      <h3>Conference Scholarships</h3>
+
+                      <li>RTC Conference Scholarship</li>
+                      <li>Google Conference Scholarship</li>
+
+                  </div>
+                </Col>
+              </Row>
             </Container>
 
-          <h1>Eboard</h1>
+            </div>
 
-          <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
-            <EBoardCard name='Olive Odida' position='President' image={placeHolder} githubURL='https://github.com/' linkedinURL='https://www.linkedin.com/in/olive-odida/' ></EBoardCard>
+            {/* <div style={{backgroundColor: "#00309B", marginTop: 0, overflow: "hidden"}}>hello</div>
+            <div style={{backgroundColor: "#E0F2FD", marginTop: 0, overflow: "hidden"}}>hello</div> */}
+            {/* <div style={{backgroundColor: "#F5F5F5", marginTop: 0, overflow: "hidden"}}>hello</div>
+            <div style={{backgroundColor: "#F5F5F5", marginTop: 0, overflow: "hidden"}}>hello</div> */}
+
+
+          <div style={{backgroundColor: "#E0F2FD", marginTop: "0%", overflow: "hidden"}}>
+
+          <h1 style={{marginTop: "6vh"}}>E-Board</h1>
+          <span style={{display: "flex", justifyContent: "center", fontSize: "1.3vw", marginBottom: "2vh"}}><i>2024 - 2025</i></span>
+          <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", marginTop: 0}}>
+            <EBoardCard name='Olive Odida' position='President' image={OlivePicture} githubURL='https://github.com/oodida' linkedinURL='https://www.linkedin.com/in/olive-odida/' ></EBoardCard>
 
             <EBoardCard name='Stephanie Park' position='Vice President' image={placeHolder} githubURL='https://github.com/' linkedinURL='https://www.linkedin.com/feed/' ></EBoardCard>
 
@@ -152,8 +220,6 @@ function Home() {
             <EBoardCard name='Olivia Karney' position='Website Manager' image={OliviaPicture} githubURL='https://github.com/okarney' linkedinURL='https://www.linkedin.com/in/olivia-karney/' ></EBoardCard>
 
           </div>
-
-
           <br></br>
           <br></br>
           <br></br>
@@ -161,8 +227,19 @@ function Home() {
           <br></br>
 
 
-          <br></br>
+          <div style={{backgroundColor: "#0639a7", padding: "1em", display: "flex", justifyContent: "center", gap: "3vw"}}>
+            <a href="https://www.linkedin.com/groups/8936004/" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin size="2.5vw" color="white" />
+            </a>
+            <a href="https://www.instagram.com/acmwud/" target="_blank" rel="noopener noreferrer">
+              <FaInstagram size="2.6vw" color="white" />
+            </a>
 
+          </div>
+          
+
+
+          </div>
     
         </div>
 

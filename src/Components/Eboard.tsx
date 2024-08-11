@@ -4,6 +4,9 @@ import LinkedInLogo from "./Images/Icons/LinkedInLogo.png";
 import GithubLogo from "./Images/Icons/GithubLogo.png";
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
+import { link } from 'fs';
+
 
 
 interface CardProps {
@@ -27,18 +30,14 @@ export function EBoardCard({name, position, image, githubURL, linkedinURL}: Card
 
         <div style={{display: "flex", flexDirection: "row", alignItems: "center"}}>
 
-        <Link to={linkedinURL}>
-          <Button style={{backgroundColor: "#F4F4F4", border: "1px solid #F4F4F4", marginBottom: "2%"}} type="button">
-          <img src={LinkedInLogo} alt="logo" style={{width: "2.5vw"}} />
-          </Button>
-        </Link>
-
-        <Link to={githubURL}>
-          <Button style={{backgroundColor: "#F4F4F4", border: "1px solid #F4F4F4", marginBottom: "2%"}} type="button">
-          <img src={GithubLogo} alt="logo" style={{width: "2.5vw"}} />
-          </Button>
-        </Link>
-            
+       <div style={{marginTop: "1.2vh", marginBottom: "1.5vh"}}>
+        <a href={linkedinURL}>
+          <FaLinkedin style={{marginRight: "1.5vw"}} size="2.5vw" color="black" />
+        </a>
+        <a href={githubURL} target="_blank" rel="noopener noreferrer">
+          <FaGithub size="2.5vw" color="black" />
+        </a>
+      </div>   
             
         </div>
         
