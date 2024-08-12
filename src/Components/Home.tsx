@@ -18,7 +18,7 @@ import OlivePicture from "./Images/EboardPictures/OlivePicture.jpeg";
 import GroupPicture from "./Images/ClubPictures/GroupPicture.jpg";
 
 import placeHolder from "./Images/EboardPictures/placeholderPic.webp"
-import { link } from 'fs';
+// import { link } from 'fs';
 
 
 function Home() {
@@ -95,7 +95,7 @@ function Home() {
           <h1 style={{marginTop: "4vh", marginBottom: "4vh"}}>Join Us</h1>
         
           <div style ={{display: "flex", justifyContent: "center", marginBottom: "6vh"}}>
-            <iframe src="https://forms.gle/sdKo1PJ4JWxFqqfo7" style={{width: "70vw", height: "60vh"}} ></iframe>
+            <iframe title= "join email list google form" src="https://forms.gle/sdKo1PJ4JWxFqqfo7" style={{width: "70vw", height: "60vh"}} ></iframe>
           </div>
 
           </div>
