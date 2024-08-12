@@ -1,11 +1,11 @@
 import '../App.css';
 
-import LinkedInLogo from "./Images/Icons/LinkedInLogo.png";
-import GithubLogo from "./Images/Icons/GithubLogo.png";
-import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
+// import LinkedInLogo from "./Images/Icons/LinkedInLogo.png";
+// import GithubLogo from "./Images/Icons/GithubLogo.png";
+// import { Link } from 'react-router-dom';
+// import { Button } from 'react-bootstrap';
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
-import { link } from 'fs';
+// import { link } from 'fs';
 
 
 
