@@ -114,5 +114,28 @@
 
 }
 
+.events {
+  width: 80vw;
+  margin-left: 10vw;
+  margin-bottom: 6vh;
+}
+
+.events h2 {
+  font-size: 2.0vw;
+}
+
+.events h3 {
+  font-size: 1.2vw;
+}
+
+.events span {
+  font-size: 1.2vw;
+  
+}
+
+.events br {
+  height: 20vh;
+}
+
 
 

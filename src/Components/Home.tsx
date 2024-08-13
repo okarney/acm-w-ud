@@ -58,10 +58,23 @@ function Home() {
 
           <div style={{backgroundColor: "#E0F2FD", overflow: "hidden"}}>
             <section id="events">
-              <h1 id="Events">Upcoming Events</h1>
+              <h1 id="Events" style={{marginBottom: "4vh"}}>Upcoming Events</h1>
 
-              <h2>Fall Involvement Fair</h2>
-              <h2>First Fall Meeting</h2>
+              <div className='events'>
+                <h2><u>Fall Involvement Fair</u></h2>
+                <h3>Date: Monday, 8/26 from 1-4p.m.</h3>
+                <h3>Location: Academy Street</h3>
+                <span>Stop by our table to learn about our club and events we are planning for the upcoming semester! We have a lot of fun things planned and can't wait to meet everyone!</span>
+
+                {/* <br></br>
+                <br></br>
+                <br></br>
+
+                <h2><u>First Fall Meeting</u></h2>
+                <h3>Date:</h3>
+                <h3>Location:</h3>
+                <span>Description of event</span> */}
+              </div>
             </section>
           </div>
 
