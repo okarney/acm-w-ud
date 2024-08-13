@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (146 ms)
+  ✕ renders learn react link (157 ms)
 
   ● renders learn react link
 
@@ -77,15 +77,28 @@ FAIL src/App.test.tsx
               [36m>[39m
                 [36m<h1[39m
                   [33mid[39m=[32m"Events"[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4vh;"[39m
                 [36m>[39m
                   [0mUpcoming Events[0m
                 [36m</h1>[39m
-                [36m<h2>[39m
-                  [0mFall Involvement Fair[0m
-                [36m</h2>[39m
-                [36m<h2>[39m
-                  [0mFirst Fall Meeting[0m
-                [36m</h2>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"events"[39m
+                [36m>[39m
+                  [36m<h2>[39m
+                    [36m<u>[39m
+                      [0mFall Involvement Fair[0m
+                    [36m</u>[39m
+                  [36m</h2>[39m
+                  [36m<h3>[39m
+                    [0mDate: Monday, 8/26 from 1-4p.m.[0m
+                  [36m</h3>[39m
+                  [36m<h3>[39m
+                    [0mLocation: Academy Street[0m
+                  [36m</h3>[39m
+                  [36m<span>[39m
+                    [0mStop by our table to learn about our club and events we are planning for the upcoming semester! We have a lot of fun things planned and can't wait to meet everyone![0m
+                  [36m</span>[39m
+                [36m</div>[39m
               [36m</section>[39m
             [36m</div>[39m
             [36m<div[39m
@@ -163,23 +176,7 @@ FAIL src/App.test.tsx
                 [36m>[39m
                   [36m<iframe[39m
                     [33msrc[39m=[32m"https://forms.gle/sdKo1PJ4JWxFqqfo7"[39m
-                    [33mstyle[39m=[32m"width: 70vw; height: 60vh;"[39m
-                    [33mtitle[39m=[32m"join email list google form"[39m
-                  [36m/>[39m
-                [36m</div>[39m
-              [36m</section>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mstyle[39m=[32m"background-color: white; margin-top: 0px; margin-bottom: 6vh; overflow: hidden;"[39m
-            [36m>[39m
-              [36m<section[39m
-                [33mid[39m=[32m"resources"[39m
-              [36m>[39m
-                [36m<h1[39m
-                  [33mstyle[39m=[32m"margin-top: 6vh; margin-bottom: 4vh;"[39m
-                [36m>[39m
-                  [0mResources[0m
-                [36...
+                    [33mstyle[39m=[32m"width: 70vw; h...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -210,12 +207,12 @@ All files            |   16.66 |        0 |    37.5 |   16.66 |
  src/Components      |   33.33 |      100 |      40 |   33.33 |                   
   Eboard.tsx         |     100 |      100 |     100 |     100 |                   
   Events.tsx         |       0 |      100 |       0 |       0 | 9-16              
-  Home.tsx           |      50 |      100 |      50 |      50 | 93                
+  Home.tsx           |      50 |      100 |      50 |      50 | 106               
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.918 s
+Time:        3.069 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
