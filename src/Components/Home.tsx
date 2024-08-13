@@ -35,19 +35,19 @@ function Home() {
                 {/* <nav> */}
 
                  
-                  <Link to="events" smooth={true} duration={500} offset={-165}>
+                  <Link to="events" smooth={true} duration={500} offset={-155}>
                     <Button className="nav-bar-buttons-events">Events</Button>
                   </Link>
-                  <Link to="about" smooth={true} duration={500} offset={-165}>
+                  <Link to="about" smooth={true} duration={500} offset={-155}>
                     <Button className="nav-bar-buttons">About Us</Button>
                   </Link>
-                  <Link to="join" smooth={true} duration={500} offset={-165}>
+                  <Link to="join" smooth={true} duration={500} offset={-155}>
                     <Button className="nav-bar-buttons">Join Us</Button>
                   </Link>
-                  <Link to="resources" smooth={true} duration={500} offset={-165}>
+                  <Link to="resources" smooth={true} duration={500} offset={-155}>
                   <Button className="nav-bar-buttons">Resources</Button>
                   </Link>
-                  <Link to="eboard" smooth={true} duration={500} offset={-165}>
+                  <Link to="eboard" smooth={true} duration={500} offset={-155}>
                     <Button className="nav-bar-buttons">EBoard</Button>
                   </Link>
                 {/* </nav> */}
