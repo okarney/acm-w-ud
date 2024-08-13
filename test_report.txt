@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (158 ms)
+  ✕ renders learn react link (143 ms)
 
   ● renders learn react link
 
@@ -24,36 +24,46 @@ FAIL src/App.test.tsx
               [33mid[39m=[32m"image"[39m
               [33msrc[39m=[32m"whiteLogo.png"[39m
             [36m/>[39m
-            [36m<button[39m
-              [33mclass[39m=[32m"nav-bar-buttons-events btn btn-primary"[39m
-              [33mtype[39m=[32m"button"[39m
-            [36m>[39m
-              [0mEvents[0m
-            [36m</button>[39m
-            [36m<button[39m
-              [33mclass[39m=[32m"nav-bar-buttons btn btn-primary"[39m
-              [33mtype[39m=[32m"button"[39m
-            [36m>[39m
-              [0mAbout Us[0m
-            [36m</button>[39m
-            [36m<button[39m
-              [33mclass[39m=[32m"nav-bar-buttons btn btn-primary"[39m
-              [33mtype[39m=[32m"button"[39m
-            [36m>[39m
-              [0mJoin Us[0m
-            [36m</button>[39m
-            [36m<button[39m
-              [33mclass[39m=[32m"nav-bar-buttons btn btn-primary"[39m
-              [33mtype[39m=[32m"button"[39m
-            [36m>[39m
-              [0mResources[0m
-            [36m</button>[39m
-            [36m<button[39m
-              [33mclass[39m=[32m"nav-bar-buttons btn btn-primary"[39m
-              [33mtype[39m=[32m"button"[39m
-            [36m>[39m
-              [0mEBoard[0m
-            [36m</button>[39m
+            [36m<a>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"nav-bar-buttons-events btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mEvents[0m
+              [36m</button>[39m
+            [36m</a>[39m
+            [36m<a>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"nav-bar-buttons btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mAbout Us[0m
+              [36m</button>[39m
+            [36m</a>[39m
+            [36m<a>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"nav-bar-buttons btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mJoin Us[0m
+              [36m</button>[39m
+            [36m</a>[39m
+            [36m<a>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"nav-bar-buttons btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mResources[0m
+              [36m</button>[39m
+            [36m</a>[39m
+            [36m<a>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"nav-bar-buttons btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mEBoard[0m
+              [36m</button>[39m
+            [36m</a>[39m
           [36m</div>[39m
           [36m<div[39m
             [33mclass[39m=[32m"page-content"[39m
@@ -62,123 +72,114 @@ FAIL src/App.test.tsx
             [36m<div[39m
               [33mstyle[39m=[32m"background-color: rgb(224, 242, 253); overflow: hidden;"[39m
             [36m>[39m
-              [36m<h1[39m
-                [33mid[39m=[32m"Events"[39m
+              [36m<section[39m
+                [33mid[39m=[32m"events"[39m
               [36m>[39m
-                [0mUpcoming Events[0m
-              [36m</h1>[39m
-              [36m<h2>[39m
-                [0mFall Involvement Fair[0m
-              [36m</h2>[39m
-              [36m<h2>[39m
-                [0mFirst Fall Meeting[0m
-              [36m</h2>[39m
+                [36m<h1[39m
+                  [33mid[39m=[32m"Events"[39m
+                [36m>[39m
+                  [0mUpcoming Events[0m
+                [36m</h1>[39m
+                [36m<h2>[39m
+                  [0mFall Involvement Fair[0m
+                [36m</h2>[39m
+                [36m<h2>[39m
+                  [0mFirst Fall Meeting[0m
+                [36m</h2>[39m
+              [36m</section>[39m
             [36m</div>[39m
             [36m<div[39m
               [33mstyle[39m=[32m"background-color: white; overflow: hidden; margin-bottom: 6vh;"[39m
             [36m>[39m
-              [36m<h1[39m
-                [33mstyle[39m=[32m"margin-top: 6vh;"[39m
+              [36m<section[39m
+                [33mid[39m=[32m"about"[39m
               [36m>[39m
-                [0mAbout Us[0m
-              [36m</h1>[39m
-              [36m<div[39m
-                [33mclass[39m=[32m"container"[39m
-                [33mstyle[39m=[32m"margin-top: 2%;"[39m
-              [36m>[39m
+                [36m<h1[39m
+                  [33mstyle[39m=[32m"margin-top: 6vh;"[39m
+                [36m>[39m
+                  [0mAbout Us[0m
+                [36m</h1>[39m
                 [36m<div[39m
-                  [33mclass[39m=[32m"row"[39m
+                  [33mclass[39m=[32m"container"[39m
+                  [33mstyle[39m=[32m"margin-top: 2%;"[39m
                 [36m>[39m
                   [36m<div[39m
-                    [33mclass[39m=[32m"col"[39m
+                    [33mclass[39m=[32m"row"[39m
                   [36m>[39m
-                    [36m<p[39m
-                      [33mstyle[39m=[32m"font-size: 1vw;"[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"col"[39m
                     [36m>[39m
-                      [0mWe are a group of students that support women and non-binary people in technology-driven fields at the University of Delaware. We like to hang out together to chat and discuss professional or technical topics, as well as to serve as a support group for ourselves and other students . Our goal is to promote women and nonbinary people in technology at UD, have fun and help students succeed in college.[0m
-                    [36m</p>[39m
-                    [36m<br />[39m
-                    [36m<p[39m
-                      [33mstyle[39m=[32m"font-size: 1vw;"[39m
+                      [36m<p[39m
+                        [33mstyle[39m=[32m"font-size: 1vw;"[39m
+                      [36m>[39m
+                        [0mWe are a group of students that support women and non-binary people in technology-driven fields at the University of Delaware. We like to hang out together to chat and discuss professional or technical topics, as well as to serve as a support group for ourselves and other students . Our goal is to promote women and nonbinary people in technology at UD, have fun and help students succeed in college.[0m
+                      [36m</p>[39m
+                      [36m<br />[39m
+                      [36m<p[39m
+                        [33mstyle[39m=[32m"font-size: 1vw;"[39m
+                      [36m>[39m
+                        [0mACM-W is open to all undergraduate, graduate, and faculty in technology driven fields. Anyone is welcome to join us.[0m
+                      [36m</p>[39m
+                      [36m<br />[39m
+                      [36m<p[39m
+                        [33mstyle[39m=[32m"font-size: 1vw;"[39m
+                      [36m>[39m
+                        [0mWe are a registered chapter of the Association for Computing Machinery's Council on Women in Computing (ACM-W). Learn more about our parent organization here![0m
+                      [36m</p>[39m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"btn btn-primary"[39m
+                        [33mstyle[39m=[32m"width: 100%; padding: 5px; font-size: 1.5vw; background-color: rgba(244, 163, 0, 1); border: 0px; margin-top: 1vh;"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mLearn more about our parent organization![0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"col"[39m
                     [36m>[39m
-                      [0mACM-W is open to all undergraduate, graduate, and faculty in technology driven fields. Anyone is welcome to join us.[0m
-                    [36m</p>[39m
-                    [36m<br />[39m
-                    [36m<p[39m
-                      [33mstyle[39m=[32m"font-size: 1vw;"[39m
-                    [36m>[39m
-                      [0mWe are a registered chapter of the Association for Computing Machinery's Council on Women in Computing (ACM-W). Learn more about our parent organization here![0m
-                    [36m</p>[39m
-                    [36m<button[39m
-                      [33mclass[39m=[32m"btn btn-primary"[39m
-                      [33mstyle[39m=[32m"width: 100%; padding: 5px; font-size: 1.5vw; background-color: rgba(244, 163, 0, 1); border: 0px; margin-top: 1vh;"[39m
-                      [33mtype[39m=[32m"button"[39m
-                    [36m>[39m
-                      [0mLearn more about our parent organization![0m
-                    [36m</button>[39m
-                  [36m</div>[39m
-                  [36m<div[39m
-                    [33mclass[39m=[32m"col"[39m
-                  [36m>[39m
-                    [36m<img[39m
-                      [33malt[39m=[32m"logo"[39m
-                      [33msrc[39m=[32m"GroupPicture.jpg"[39m
-                      [33mstyle[39m=[32m"width: 100%;"[39m
-                    [36m/>[39m
+                      [36m<img[39m
+                        [33malt[39m=[32m"logo"[39m
+                        [33msrc[39m=[32m"GroupPicture.jpg"[39m
+                        [33mstyle[39m=[32m"width: 100%;"[39m
+                      [36m/>[39m
+                    [36m</div>[39m
                   [36m</div>[39m
                 [36m</div>[39m
-              [36m</div>[39m
+              [36m</section>[39m
             [36m</div>[39m
             [36m<div[39m
               [33mstyle[39m=[32m"background-color: rgb(224, 242, 253); overflow: hidden;"[39m
             [36m>[39m
-              [36m<h1[39m
-                [33mstyle[39m=[32m"margin-top: 4vh; margin-bottom: 4vh;"[39m
+              [36m<section[39m
+                [33mid[39m=[32m"join"[39m
               [36m>[39m
-                [0mJoin Us[0m
-              [36m</h1>[39m
-              [36m<div[39m
-                [33mstyle[39m=[32m"display: flex; justify-content: center; margin-bottom: 6vh;"[39m
-              [36m>[39m
-                [36m<iframe[39m
-                  [33msrc[39m=[32m"https://forms.gle/sdKo1PJ4JWxFqqfo7"[39m
-                  [33mstyle[39m=[32m"width: 70vw; height: 60vh;"[39m
-                  [33mtitle[39m=[32m"join email list google form"[39m
-                [36m/>[39m
-              [36m</div>[39m
+                [36m<h1[39m
+                  [33mstyle[39m=[32m"margin-top: 4vh; margin-bottom: 4vh;"[39m
+                [36m>[39m
+                  [0mJoin Us[0m
+                [36m</h1>[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"display: flex; justify-content: center; margin-bottom: 6vh;"[39m
+                [36m>[39m
+                  [36m<iframe[39m
+                    [33msrc[39m=[32m"https://forms.gle/sdKo1PJ4JWxFqqfo7"[39m
+                    [33mstyle[39m=[32m"width: 70vw; height: 60vh;"[39m
+                    [33mtitle[39m=[32m"join email list google form"[39m
+                  [36m/>[39m
+                [36m</div>[39m
+              [36m</section>[39m
             [36m</div>[39m
             [36m<div[39m
               [33mstyle[39m=[32m"background-color: white; margin-top: 0px; margin-bottom: 6vh; overflow: hidden;"[39m
             [36m>[39m
-              [36m<h1[39m
-                [33mstyle[39m=[32m"margin-top: 6vh; margin-bottom: 4vh;"[39m
+              [36m<section[39m
+                [33mid[39m=[32m"resources"[39m
               [36m>[39m
-                [0mResources[0m
-              [36m</h1>[39m
-              [36m<div[39m
-                [33mclass[39m=[32m"resources container"[39m
-              [36m>[39m
-                [36m<h2[39m
-                  [33mstyle[39m=[32m"margin-bottom: 2.5%;"[39m
+                [36m<h1[39m
+                  [33mstyle[39m=[32m"margin-top: 6vh; margin-bottom: 4vh;"[39m
                 [36m>[39m
-                  [36m<u>[39m
-                    [0mInternships and Interviews[0m
-                  [36m</u>[39m
-                [36m</h2>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"row"[39m
-                [36m>[39m
-                  [36m<div[39m
-                    [33mclass[39m=[32m"resources-columns col"[39m
-                  [36m>[39m
-                    [36m<div>[39m
-                      [36m<h3>[39m
-                        [0mFind Internship Opportunities[0m
-                      [36m</h3>[39m
-                      [36m<a[39m
-                        [33mhref[39m=[32m"https://github.com/SimplifyJobs/Summer2025-Internships"[39m
-                      [36m>[39m
-                  ...
+                  [0mResources[0m
+                [36...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -209,12 +210,12 @@ All files            |   16.66 |        0 |    37.5 |   16.66 |
  src/Components      |   33.33 |      100 |      40 |   33.33 |                   
   Eboard.tsx         |     100 |      100 |     100 |     100 |                   
   Events.tsx         |       0 |      100 |       0 |       0 | 9-16              
-  Home.tsx           |      50 |      100 |      50 |      50 | 83                
+  Home.tsx           |      50 |      100 |      50 |      50 | 91                
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.002 s
+Time:        2.844 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
