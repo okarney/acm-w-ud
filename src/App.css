@@ -18,23 +18,26 @@
 
 .site-header {
   position: fixed;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
   margin-top: 0;
   width: 100%;
   background-color: #0639a7;
 }
 
 .site-header img {
-  width: 12%;
+  width: 10vw;
   margin-left: 1%;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vw;
 }
 
 .nav-bar-buttons-events {
-  margin-left: 8%;
+  margin-left: 15%;
   margin-top: 1%;
   margin-bottom: 1%;
-  height: 60%;
-  width: 15%;
+  width: 20vw;
   /* font-size: 18px !important; */
   font-size: 1.8vw !important;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
@@ -59,8 +62,8 @@
   align-items: center !important;
   margin-left: 0%;  margin-top: 1%;
   margin-bottom: 1%;
-  height: 80%;
-  width: 15%;
+  height: 40%;
+  width: 15vw;
   font-size: 1.8vw !important;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
   padding: 7px 30px; /* Adjusted padding for clarity */

@@ -1,7 +1,7 @@
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import '../App.css';
 
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import {FaInstagram, FaLinkedin} from 'react-icons/fa'
 
 //import logo from "./Images/Logos/logo.png"
@@ -29,35 +29,43 @@ function Home() {
       <div className="page">
         
         <div className="site-header">
+
                 <img src = {whiteLogo} alt = "logo" id = "image" className='fram'/>
-                
-                <Button className="nav-bar-buttons-events">Events</Button>
-             
-                <Button className="nav-bar-buttons">About Us</Button>
-            
-                <Button className="nav-bar-buttons">Join Us</Button>
-              
-                <Button className="nav-bar-buttons">Resources</Button>
-              
-                <Button className="nav-bar-buttons">EBoard</Button>
-           
+                {/* <nav> */}
+
+                  <Link to="events" smooth={true} duration={500} offset={-165}>
+                    <Button className="nav-bar-buttons-events">Events</Button>
+                  </Link>
+                  <Link to="about" smooth={true} duration={500} offset={-165}>
+                    <Button className="nav-bar-buttons">About Us</Button>
+                  </Link>
+                  <Link to="join" smooth={true} duration={500} offset={-165}>
+                    <Button className="nav-bar-buttons">Join Us</Button>
+                  </Link>
+                  <Link to="resources" smooth={true} duration={500} offset={-165}>
+                  <Button className="nav-bar-buttons">Resources</Button>
+                  </Link>
+                  <Link to="eboard" smooth={true} duration={500} offset={-165}>
+                    <Button className="nav-bar-buttons">EBoard</Button>
+                  </Link>
+                {/* </nav> */}
         </div>
 
         <div className="page-content">
           <br></br>
 
           <div style={{backgroundColor: "#E0F2FD", overflow: "hidden"}}>
-            <h1 id="Events">Upcoming Events</h1>
+            <section id="events">
+              <h1 id="Events">Upcoming Events</h1>
 
-            <h2>Fall Involvement Fair</h2>
-            <h2>First Fall Meeting</h2>
-
+              <h2>Fall Involvement Fair</h2>
+              <h2>First Fall Meeting</h2>
+            </section>
           </div>
 
           <div style={{backgroundColor: "white", overflow: "hidden", marginBottom: "6vh"}}>
-
+          <section id="about">
           <h1 style={{marginTop: "6vh"}} >About Us</h1>
-
           <Container style={{marginTop: "2%"}} >
             <Row>
               <Col>
@@ -89,19 +97,22 @@ function Home() {
               </Col>
             </Row>
           </Container>
+          </section>
           </div>
 
           <div style={{backgroundColor: "#E0F2FD", overflow: "hidden"}}>
+          <section id="join">
           <h1 style={{marginTop: "4vh", marginBottom: "4vh"}}>Join Us</h1>
         
           <div style ={{display: "flex", justifyContent: "center", marginBottom: "6vh"}}>
             <iframe title= "join email list google form" src="https://forms.gle/sdKo1PJ4JWxFqqfo7" style={{width: "70vw", height: "60vh"}} ></iframe>
           </div>
-
+          </section>
           </div>
 
 
           <div style={{backgroundColor: "white", marginTop: 0, marginBottom: "6vh", overflow: "hidden"}}>
+          <section id="resources">
           <h1 style = {{marginTop: "6vh", marginBottom: "4vh"}}>Resources</h1>
 
             <Container className="resources">
@@ -187,7 +198,7 @@ function Home() {
                 </Col>
               </Row>
             </Container>
-
+            </section>
             </div>
 
             {/* <div style={{backgroundColor: "#00309B", marginTop: 0, overflow: "hidden"}}>hello</div>
@@ -197,7 +208,7 @@ function Home() {
 
 
           <div style={{backgroundColor: "#E0F2FD", marginTop: "0%", overflow: "hidden"}}>
-
+          <section id="eboard">
           <h1 style={{marginTop: "6vh"}}>E-Board</h1>
           <span style={{display: "flex", justifyContent: "center", fontSize: "1.3vw", marginBottom: "2vh"}}><i>2024 - 2025</i></span>
           <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", marginTop: 0}}>
@@ -223,9 +234,7 @@ function Home() {
           <br></br>
           <br></br>
           <br></br>
-          <br></br>
-          <br></br>
-
+          </section>
 
           <div style={{backgroundColor: "#0639a7", padding: "1em", display: "flex", justifyContent: "center", gap: "3vw"}}>
             <a href="https://www.linkedin.com/groups/8936004/" target="_blank" rel="noopener noreferrer">
