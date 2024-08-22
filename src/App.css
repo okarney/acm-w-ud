@@ -128,13 +128,19 @@
   font-size: 1.2vw;
 }
 
-.events span {
-  font-size: 1.2vw;
+.events p {
+  font-size: 1.3vw;
   
 }
 
 .events br {
-  height: 20vh;
+  height: 5vh;
+}
+
+.events Button {
+  /* background-image: url("./Components/IG_Colors.png"); */
+
+  /* background-color: #012419; */
 }
 
 

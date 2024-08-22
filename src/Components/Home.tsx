@@ -21,7 +21,6 @@ import GroupPicture from "./Images/ClubPictures/GroupPicture.jpg";
 import placeHolder from "./Images/EboardPictures/placeholderPic.webp"
 // import { link } from 'fs';
 
-
 function Home() {
   
  
@@ -61,11 +60,31 @@ function Home() {
               <h1 id="Events" style={{marginBottom: "4vh"}}>Upcoming Events</h1>
 
               <div className='events'>
-                <h2><u>Fall Involvement Fair</u></h2>
-                <h3>Date: Monday, 8/26 from 1-4p.m.</h3>
-                <h3>Location: Academy Street</h3>
-                <span>Stop by our table to learn about our club and events we are planning for the upcoming semester! We have a lot of fun things planned and can't wait to meet everyone!</span>
-
+                <Container>
+                  <Row>
+                    <Col>
+                      <h2><u>Fall Involvement Fair</u></h2>
+                      <h3>Date: Monday, 8/26 from 1-4p.m.</h3>
+                      <h3>Location: Academy Street</h3>
+                      <p>Stop by our table to learn about our club and events we are planning for the upcoming semester! We have a lot of fun things planned and can't wait to meet everyone!</p>
+                    </Col>
+                    <Col style = {{display: "flex", justifyContent: "center", flexDirection: "column", marginLeft: "5%"}}>
+                      <Button 
+                        style={{padding: "5%", marginBottom: "2vh",  fontSize: "2vw", backgroundColor: "#4682B4", border: "0px", color: "white"}} 
+                        onClick={() => window.location.href = "https://www.instagram.com/acmwud/"}
+                        >
+                         Follow us on Instagram!
+                         </Button>
+                      <br></br>
+                      <Button 
+                        style={{padding: "5%", fontSize: "2vw", backgroundColor: "#4682B4", border: "0px", color: "white"}} 
+                        onClick={() => window.location.href = "https://forms.gle/sdKo1PJ4JWxFqqfo7"}
+                        >
+                        Join our email list!
+                      </Button>
+                    </Col>
+                  </Row>
+                </Container>
                 {/* <br></br>
                 <br></br>
                 <br></br>
