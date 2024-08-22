@@ -229,7 +229,7 @@ function Home() {
           <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", marginTop: 0}}>
             <EBoardCard name='Olive Odida' position='President' image={OlivePicture} githubURL='https://github.com/oodida' linkedinURL='https://www.linkedin.com/in/olive-odida/' ></EBoardCard>
 
-            <EBoardCard name='Stephanie Park' position='Vice President' image={placeHolder} githubURL='https://github.com/' linkedinURL='https://www.linkedin.com/feed/' ></EBoardCard>
+            <EBoardCard name='Stephanie Park' position='Vice President' image={placeHolder} githubURL='https://github.com/stephaaniepark' linkedinURL='https://www.linkedin.com/in/stephanie-park-12643a323/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' ></EBoardCard>
 
             <EBoardCard name='Joy Mwaria' position='Secretary (Fall)' image={JoyPicture} githubURL='https://github.com/joymmw' linkedinURL='https://www.linkedin.com/in/joymwaria/' ></EBoardCard>
 
