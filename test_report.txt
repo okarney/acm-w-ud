@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (137 ms)
+  ✕ renders learn react link (131 ms)
 
   ● renders learn react link
 
@@ -70,7 +70,7 @@ FAIL src/App.test.tsx
           [36m>[39m
             [36m<br />[39m
             [36m<div[39m
-              [33mstyle[39m=[32m"background-color: rgb(224, 242, 253); overflow: hidden;"[39m
+              [33mstyle[39m=[32m"background-color: rgb(224, 242, 253); overflow: hidden; display: flex; justify-content: center;"[39m
             [36m>[39m
               [36m<section[39m
                 [33mid[39m=[32m"events"[39m
@@ -110,7 +110,7 @@ FAIL src/App.test.tsx
                       [36m</div>[39m
                       [36m<div[39m
                         [33mclass[39m=[32m"col"[39m
-                        [33mstyle[39m=[32m"display: flex; justify-content: center; flex-direction: column; margin-left: 5%;"[39m
+                        [33mstyle[39m=[32m"display: flex; justify-content: center; flex-direction: column;"[39m
                       [36m>[39m
                         [36m<button[39m
                           [33mclass[39m=[32m"btn btn-primary"[39m
@@ -155,23 +155,20 @@ FAIL src/App.test.tsx
                       [33mclass[39m=[32m"col"[39m
                     [36m>[39m
                       [36m<p[39m
-                        [33mstyle[39m=[32m"font-size: 1vw;"[39m
+                        [33mstyle[39m=[32m"font-size: 1vw; margin-bottom: 2.5vh;"[39m
                       [36m>[39m
                         [0mWe are a group of students that support women and non-binary people in technology-driven fields at the University of Delaware. We like to hang out together to chat and discuss professional or technical topics, as well as to serve as a support group for ourselves and other students . Our goal is to promote women and nonbinary people in technology at UD, have fun and help students succeed in college.[0m
                       [36m</p>[39m
-                      [36m<br />[39m
                       [36m<p[39m
-                        [33mstyle[39m=[32m"font-size: 1vw;"[39m
+                        [33mstyle[39m=[32m"font-size: 1vw; margin-bottom: 2.5vh;"[39m
                       [36m>[39m
                         [0mACM-W is open to all undergraduate, graduate, and faculty in technology driven fields. Anyone is welcome to join us.[0m
                       [36m</p>[39m
-                      [36m<br />[39m
                       [36m<p[39m
-                        [33mstyle[39m=[32m"font-size: 1vw;"[39m
+                        [33mstyle[39m=[32m"font-size: 1vw; margin-bottom: 2.5vh;"[39m
                       [36m>[39m
                         [0mWe are a registered chapter of the Association for Computing Machinery's Council on Women in Computing (ACM-W). Learn more about our parent organization here![0m
-                      [36m</p>[39m
-                  ...
+                      [36m</p>...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -202,12 +199,12 @@ All files            |      15 |        0 |      30 |      15 |
  src/Components      |      25 |      100 |   28.57 |      25 |                   
   Eboard.tsx         |     100 |      100 |     100 |     100 |                   
   Events.tsx         |       0 |      100 |       0 |       0 | 9-16              
-  Home.tsx           |      25 |      100 |      25 |      25 | 74-125            
+  Home.tsx           |      25 |      100 |      25 |      25 | 74-123            
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.821 s
+Time:        2.946 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
