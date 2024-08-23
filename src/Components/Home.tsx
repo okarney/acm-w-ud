@@ -70,14 +70,14 @@ function Home() {
                     </Col>
                     <Col style = {{display: "flex", justifyContent: "center", flexDirection: "column", marginLeft: "5%"}}>
                       <Button 
-                        style={{padding: "5%", marginBottom: "2vh",  fontSize: "2vw", backgroundColor: "#4682B4", border: "0px", color: "white"}} 
+                        style={{padding: "1vh", marginBottom: "1vh",  fontSize: "2vw", backgroundColor: "#4682B4", border: "0px", color: "white"}} 
                         onClick={() => window.location.href = "https://www.instagram.com/acmwud/"}
                         >
                          Follow us on Instagram!
                          </Button>
                       <br></br>
                       <Button 
-                        style={{padding: "5%", fontSize: "2vw", backgroundColor: "#4682B4", border: "0px", color: "white"}} 
+                        style={{padding: "1vh", fontSize: "2vw", backgroundColor: "#4682B4", border: "0px", color: "white"}} 
                         onClick={() => window.location.href = "https://forms.gle/sdKo1PJ4JWxFqqfo7"}
                         >
                         Join our email list!
