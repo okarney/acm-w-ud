@@ -57,10 +57,11 @@ function Home() {
 
           <div style={{backgroundColor: "#E0F2FD", overflow: "hidden", display: "flex", justifyContent: "center"}}>
             <section id="events">
+              <br></br>
               <h1 id="Events" style={{marginBottom: "4vh"}}>Upcoming Events</h1>
 
               <div className='events'>
-                <Container >
+                <Container>
                   <Row>
                     <Col >
                       <h2><u>Fall Involvement Fair</u></h2>
@@ -134,7 +135,7 @@ function Home() {
 
           <div style={{backgroundColor: "#E0F2FD", overflow: "hidden"}}>
           <section id="join">
-          <h1 style={{marginTop: "4vh", marginBottom: "4vh"}}>Join Us</h1>
+          <h1 style={{marginTop: "6vh", marginBottom: "4vh"}}>Join Us</h1>
         
           <div style ={{display: "flex", justifyContent: "center", marginBottom: "6vh"}}>
             <iframe title= "join email list google form" src="https://forms.gle/sdKo1PJ4JWxFqqfo7" style={{width: "70vw", height: "60vh"}} ></iframe>
