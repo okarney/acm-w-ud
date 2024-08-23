@@ -55,20 +55,20 @@ function Home() {
         <div className="page-content">
           <br></br>
 
-          <div style={{backgroundColor: "#E0F2FD", overflow: "hidden"}}>
+          <div style={{backgroundColor: "#E0F2FD", overflow: "hidden", display: "flex", justifyContent: "center"}}>
             <section id="events">
               <h1 id="Events" style={{marginBottom: "4vh"}}>Upcoming Events</h1>
 
               <div className='events'>
-                <Container>
+                <Container >
                   <Row>
-                    <Col>
+                    <Col >
                       <h2><u>Fall Involvement Fair</u></h2>
                       <h3>Date: Monday, 8/26 from 1-4p.m.</h3>
                       <h3>Location: Academy Street</h3>
                       <p>Stop by our table to learn about our club and events we are planning for the upcoming semester! We have a lot of fun things planned and can't wait to meet everyone!</p>
                     </Col>
-                    <Col style = {{display: "flex", justifyContent: "center", flexDirection: "column", marginLeft: "5%"}}>
+                    <Col style = {{display: "flex", justifyContent: "center", flexDirection: "column"}}>
                       <Button 
                         style={{padding: "1vh", marginBottom: "1vh",  fontSize: "2vw", backgroundColor: "#4682B4", border: "0px", color: "white"}} 
                         onClick={() => window.location.href = "https://www.instagram.com/acmwud/"}
@@ -103,26 +103,24 @@ function Home() {
           <Container style={{marginTop: "2%"}} >
             <Row>
               <Col>
-                <p style = {{fontSize: "1vw"}} >
+                <p style = {{fontSize: "1vw", marginBottom: "2.5vh"}} >
                   We are a group of students that support women and non-binary people in technology-driven fields at the University of Delaware. 
                   We like to hang out together to chat and discuss professional or technical topics, as well as to serve as a support group for 
                   ourselves and other students . Our goal is to promote women and nonbinary people in technology at UD, have fun and help students
                   succeed in college.
                 </p>
 
-                <br></br>
 
-                <p style = {{fontSize: "1vw"}}>
+                <p style = {{fontSize: "1vw", marginBottom: "2.5vh"}}>
                   ACM-W is open to all undergraduate, graduate, and faculty in technology driven fields. Anyone is welcome to join us.
                 </p>
 
-                <br></br>
 
-                <p style = {{fontSize: "1vw"}}>
+                <p style = {{fontSize: "1vw", marginBottom: "2.5vh"}}>
                   We are a registered chapter of the Association for Computing Machinery's Council on Women in Computing (ACM-W). Learn more about our parent organization here!
                 </p>
 
-                <Button style={{width: "100%", padding: 5, fontSize: "1.5vw", backgroundColor: "#f4a300ff", border: 0, marginTop: "1vh"}}  onClick={() => window.location.href = "https://women.acm.org/"}>Learn more about our parent organization!</Button>
+                <Button style={{width: "100%", padding: 5, fontSize: "1.5vw", backgroundColor: "#f4a300ff", border: 0}}  onClick={() => window.location.href = "https://women.acm.org/"}>Learn more about our parent organization!</Button>
 
               </Col>
               <Col>
