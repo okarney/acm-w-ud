@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (128 ms)
+  ✕ renders learn react link (137 ms)
 
   ● renders learn react link
 
@@ -114,7 +114,7 @@ FAIL src/App.test.tsx
                       [36m>[39m
                         [36m<button[39m
                           [33mclass[39m=[32m"btn btn-primary"[39m
-                          [33mstyle[39m=[32m"padding: 5%; margin-bottom: 2vh; font-size: 2vw; background-color: rgb(70, 130, 180); border: 0px; color: white;"[39m
+                          [33mstyle[39m=[32m"padding: 1vh; margin-bottom: 1vh; font-size: 2vw; background-color: rgb(70, 130, 180); border: 0px; color: white;"[39m
                           [33mtype[39m=[32m"button"[39m
                         [36m>[39m
                           [0mFollow us on Instagram![0m
@@ -122,7 +122,7 @@ FAIL src/App.test.tsx
                         [36m<br />[39m
                         [36m<button[39m
                           [33mclass[39m=[32m"btn btn-primary"[39m
-                          [33mstyle[39m=[32m"padding: 5%; font-size: 2vw; background-color: rgb(70, 130, 180); border: 0px; color: white;"[39m
+                          [33mstyle[39m=[32m"padding: 1vh; font-size: 2vw; background-color: rgb(70, 130, 180); border: 0px; color: white;"[39m
                           [33mtype[39m=[32m"button"[39m
                         [36m>[39m
                           [0mJoin our email list![0m
@@ -171,7 +171,7 @@ FAIL src/App.test.tsx
                       [36m>[39m
                         [0mWe are a registered chapter of the Association for Computing Machinery's Council on Women in Computing (ACM-W). Learn more about our parent organization here![0m
                       [36m</p>[39m
-                    ...
+                  ...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -207,7 +207,7 @@ All files            |      15 |        0 |      30 |      15 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.842 s
+Time:        2.821 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
